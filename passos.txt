@@ -11,3 +11,9 @@ Executar o projeto:
 
 Restaurar um projeto após clonar:
     npm i
+
+Para instalar o expo router:
+    npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+Alterar no package.json - Linha 4
+      "main": "expo-router/entry",

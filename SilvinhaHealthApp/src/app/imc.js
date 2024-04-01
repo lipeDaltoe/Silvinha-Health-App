@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Title from './src/components/Title';
-import Form from './src/components/Form';
+import Title from '../components/Title';
+import Form from '../components/Form';
 
-export default function App() {
+export default function Imc() {
   return (
     <View style={styles.container}>
       <Title />
